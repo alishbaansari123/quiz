@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK-Y9_edG9kmmeXn0hK5opmGBFqaDn7M6Gow&s">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: lightcyan;
+        }
+
+        .q-p{
+            font-weight: 500;
+        }
+
+        .option-1{
+            width: 40rem;
+            background-color: rgba(0 , 0 , 0 ,0.1);
+        }
+
+        @media screen and (max-width:769px) {
+            .option-1{
+            width: 17rem;
+        }   
+        }
+
+        span{
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main-section ps-5">
+        <div class="heading py-4">
+         <p class="h1">HTML Quiz</p>
+         <p class="h3 pt-3">Question 1 of 10:</p>
+        </div>
+
+
+        <!-- question 5 -->
+        <div class="question pt-3">
+            <p class="lead fs-3 q-p"><span class="text-primary">5:</span>&nbsp;&nbsp;Which HTML tag is used to define the footer for a document or section?
+            </p>
+
+            <!-- option-1 -->
+            <div class="mutiple-options">
+             <div class="option-1 p-2">
+                <input type="radio" name="option">
+                <span>&nbsp; &lt;footer&gt; </span>
+             </div>
+            </div>
+
+            <!-- option-2 -->
+            <div class="mutiple-options mt-2">
+                <div class="option-1 p-2">
+                   <input type="radio" name="option">
+                   <span>&nbsp; &lt;bottom&gt;</span>
+                </div>
+            </div>
+
+            <!-- option-3 -->
+            <div class="mutiple-options mt-2">
+                <div class="option-1 p-2">
+                   <input type="radio" name="option">
+                   <span>&nbsp; &lt;foot&gt;</span>
+                </div>
+            </div>
+
+            <div class="next-btn mt-4">
+                <a href="result.html" target="_self">
+                <button class="px-5 py-2 fs-5 text-white btn bg-primary">Next</button>
+            </a>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
